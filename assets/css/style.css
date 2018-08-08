@@ -1,0 +1,52 @@
+body {
+	/*background-image:url(../images/bg.png);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	ffont-family: 'Suez One', serif;
+	background-image: url(../images/bg.png);
+	background-color: #ECC8EC;
+}
+
+h1{
+	font-size: 50px;
+	margin-bottom: 0;
+	background-color: #333;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+h2{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: purple;
+}
+
+/*id uses '#'*/
+#me {
+	height: 250px;
+	width: 250px;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: white;
+	margin-top: 50px;
+}
+
+/*class uses '.'*/
+.about{
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
+/*	background-color: rgb(51,51,51);
+	opacity: 0.25; ----if this is used, even the text will be affected, not just the background color*/
+	background-color: rgba(51,51,51,0.40); 
+	/*rgba(r,g,b,a) where 'a' is alpha or opacity. */
+	font-family: 'Imprima', sans-serif;
+
+}
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
